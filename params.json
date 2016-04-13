@@ -1,0 +1,6 @@
+{
+  "name": "Spachcock",
+  "tagline": "route of the custom",
+  "body": "![logo](http://s14.postimg.org/u5u98p5e9/Drawing.png)\r\n> route of the custom\r\n\r\n[![NPM](https://nodei.co/npm/spachcock.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/spachcock/)\r\n\r\n## install\r\n\r\n```sh\r\n$ npm install spachcock\r\n```\r\n\r\n## test\r\n\r\n```sh\r\n$ npm test\r\n```\r\n\r\n## example\r\n\r\n```sh\r\n$ cd samples/ && ls\r\n```\r\n\r\n## license\r\n\r\nMIT.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
