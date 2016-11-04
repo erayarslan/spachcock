@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+</head>
+<body>
+<script>
+    var socket = io("http://localhost:8080");
+
+    socket.emit("test", {
+        "namespace": "foo",
+        "action": "bar"
+    });
+
+    socket.on("test", function (data) {
+        console.log(data);
+    });
+</script>
+</body>
+</html>

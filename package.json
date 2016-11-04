@@ -1,0 +1,37 @@
+{
+  "name": "spachcock",
+  "description": "route of the custom",
+  "version": "1.2.1",
+  "author": "eray <relfishere@gmail.com>",
+  "dependencies": {
+    "path-to-regexp": "1.2.1",
+    "lodash": "4.2.0",
+    "is-my-json-valid": "2.13.1"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "1.18.2",
+    "socket.io": "1.4.5",
+    "ws": "1.0.1"
+  },
+  "scripts": {
+    "test": "find ./tests -name '*.test.js' | xargs ./node_modules/mocha/bin/mocha  -R spec"
+  },
+  "keywords": [
+    "socket",
+    "express",
+    "json",
+    "framework",
+    "library",
+    "routing",
+    "socket.io",
+    "websocket",
+    "custom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:erayarslan/spachcock.git"
+  },
+  "license": "mit",
+  "main": "./index.js"
+}
