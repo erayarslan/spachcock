@@ -1,11 +1,3 @@
-/*
- *   spachcock
- *   Author : Eray 'maia' Arslan
- *   Email  : relfishere@gmail.com
- *   Blog   : http://eray.js.org/
- *   This project is released under the MIT license.
- */
-
 var Request = require(__dirname + "/request");
 var Response = require(__dirname + "/response");
 
@@ -16,9 +8,6 @@ var pathToRegexp = require('path-to-regexp');
 var url = require('url');
 var validator = require('is-my-json-valid');
 
-/**
- * @returns {Spachcock}
- */
 var Spachcock = function () {
   this.settings = {};
   this.routes = {};
@@ -154,7 +143,6 @@ Spachcock.prototype.preParser = function (data) {
       return data;
     }
   } catch (e) {
-    console.error("input parse error", data.toString());
     return {};
   }
 };

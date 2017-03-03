@@ -1,7 +1,7 @@
 {
   "name": "spachcock",
   "description": "route of the custom",
-  "version": "1.2.1",
+  "version": "0.0.1s",
   "author": "eray <relfishere@gmail.com>",
   "dependencies": {
     "path-to-regexp": "1.2.1",

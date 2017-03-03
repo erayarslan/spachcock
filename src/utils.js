@@ -1,11 +1,3 @@
-/*
- *   spachcock
- *   Author : Eray 'maia' Arslan
- *   Email  : relfishere@gmail.com
- *   Blog   : http://eray.js.org/
- *   This project is released under the MIT license.
- */
-
 module.exports = {
   hasOwnProperty: Object.prototype.hasOwnProperty,
   /**
@@ -13,7 +5,8 @@ module.exports = {
    * @returns {String}
    */
   DecodeParam: function (val) {
-    if (typeof val !== 'string' || val.length === 0) {
+    if (typeof val !== 'string' ||
+      val.length === 0) {
       return val;
     }
 
